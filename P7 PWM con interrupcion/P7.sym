@@ -1,0 +1,155 @@
+004     @WRITE_PROGRAM_MEMORY8.P1
+004-005 @READ_PROGRAM_MEMORY8.P2
+007     PORTC
+015     CCP_1_LOW
+015     CCP_1
+016     CCP_1_HIGH
+01B     CCP_2_LOW
+01B     CCP_2
+01C     CCP_2_HIGH
+020     @INTERRUPT_AREA
+021     @INTERRUPT_AREA
+022     @INTERRUPT_AREA
+023     @INTERRUPT_AREA
+024     @INTERRUPT_AREA
+025     @INTERRUPT_AREA
+026     @INTERRUPT_AREA
+027     @INTERRUPT_AREA
+028-029 strtok.save
+02A-02D _Randseed
+02E-031 cicloH
+032-035 cicloL
+036-039 frecuencia
+03A     MAIN.@SCRATCH1
+03B     MAIN.@SCRATCH2
+03C     MAIN.@SCRATCH3
+03D     MAIN.@SCRATCH4
+03E     MAIN.@SCRATCH5
+03F     @delay_ms1.P1
+04A-053 interrupcion_serial.letra
+054-057 interrupcion_serial.escogido
+058-059 atol.s
+058-05B @ADDFF.P1
+058-059 @SITOF.P2
+058-05B @MULFF.P3
+05A-05B atol.result
+05C-05F @MULFF.P1
+05C     atol.sign
+05C-05F @ADDFF.P1
+05D     atol.base
+05E     atol.index
+05F     atol.c
+060-061 @MULS1616.P1
+060     @MULFF.@SCRATCH1
+060     @ADDFF.@SCRATCH1
+060     atol.@SCRATCH1
+061     @MULFF.@SCRATCH2
+061     @ADDFF.@SCRATCH2
+061     atol.@SCRATCH2
+062-063 @MULS1616.P1
+062     @MULFF.@SCRATCH3
+062     @ADDFF.@SCRATCH3
+062     atol.@SCRATCH3
+063     @MULFF.@SCRATCH4
+063     @ADDFF.@SCRATCH4
+064     @MULS1616.@SCRATCH1
+064     @MULFF.@SCRATCH5
+064     @ADDFF.@SCRATCH5
+065     @MULS1616.@SCRATCH2
+065     @ADDFF.@SCRATCH6
+066     @ADDFF.@SCRATCH7
+067     @ADDFF.@SCRATCH8
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+07F     @INTERRUPT_AREA
+087     TRISC
+0FF     @INTERRUPT_AREA
+107.6   C1OUT
+108.6   C2OUT
+10D-10E @WRITE_PROGRAM_MEMORY8.P1
+10D-10E @READ_PROGRAM_MEMORY8.P2
+17F     @INTERRUPT_AREA
+1FF     @INTERRUPT_AREA
+27F     @INTERRUPT_AREA
+2FF     @INTERRUPT_AREA
+37F     @INTERRUPT_AREA
+3FF     @INTERRUPT_AREA
+47F     @INTERRUPT_AREA
+4FF     @INTERRUPT_AREA
+57F     @INTERRUPT_AREA
+5FF     @INTERRUPT_AREA
+67F     @INTERRUPT_AREA
+6FF     @INTERRUPT_AREA
+77F     @INTERRUPT_AREA
+7FF     @INTERRUPT_AREA
+87F     @INTERRUPT_AREA
+8FF     @INTERRUPT_AREA
+97F     @INTERRUPT_AREA
+9FF     @INTERRUPT_AREA
+A7F     @INTERRUPT_AREA
+AFF     @INTERRUPT_AREA
+B7F     @INTERRUPT_AREA
+BFF     @INTERRUPT_AREA
+C7F     @INTERRUPT_AREA
+CFF     @INTERRUPT_AREA
+D7F     @INTERRUPT_AREA
+DFF     @INTERRUPT_AREA
+E7F     @INTERRUPT_AREA
+EFF     @INTERRUPT_AREA
+F7F     @INTERRUPT_AREA
+FFF     @INTERRUPT_AREA
+
+ROM Allocation:
+0395  @delay_ms1
+01F6  @MULS1616
+02F6  @MULFF
+0031  @ADDFF
+0183  atol
+03AA  MAIN
+0172  interrupcion_serial
+02BA  @SITOF
+03AA  @cinit
+0136  StrtoulGO
+0136  StrtolGO
+
+
+User Memory space: 
+
+User Memory space: 
+
+Project Directory:
+    C:\Users\CarlosLap\Desktop\Programación\quinto\unidad2\P7 PWM con interrupcion\
+
+Project Files:
+    P7.c
+    ..\..\..\..\..\..\..\Program Files (x86)\PICC\devices\16F887.h
+    ..\..\..\..\..\..\..\Program Files (x86)\PICC\drivers\stdlib.h
+    ..\..\..\..\..\..\..\Program Files (x86)\PICC\drivers\stddef.h
+    ..\..\..\..\..\..\..\Program Files (x86)\PICC\drivers\string.h
+    ..\..\..\..\..\..\..\Program Files (x86)\PICC\drivers\ctype.h
+    ..\..\..\..\..\..\..\Program Files (x86)\PICC\drivers\stdio.h
+
+Units:
+    C:\Users\CarlosLap\Desktop\Programación\quinto\unidad2\P7 PWM con interrupcion\P7 (main)
+
+Compiler Settings:
+    Processor:      PIC16F887
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    Errors:      P7.err
+    Ext Symbols: P7.esym
+    INHX8:       P7.hex
+    Symbols:     P7.sym
+    List:        P7.lst
+    Debug/COFF:  P7.cof
+    Project:     P7.PJT
+    Call Tree:   P7.tre
+    Statistics:  P7.sta

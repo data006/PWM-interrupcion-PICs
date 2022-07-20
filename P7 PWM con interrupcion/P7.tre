@@ -1,0 +1,15 @@
+ÀÄP7
+   ÃÄMAIN  0/161  Ram=5
+   ³  ÃÄ??0??
+   ³  ÃÄ@ADDFF  0/321  Ram=16
+   ³  ÃÄ@delay_ms1  0/21  Ram=1
+   ³  ÃÄ@delay_ms1  0/21  Ram=1
+   ³  ÃÄ@ADDFF  0/321  Ram=16
+   ³  ÃÄ@delay_ms1  0/21  Ram=1
+   ³  ÀÄ@delay_ms1  0/21  Ram=1
+   ÀÄinterrupcion_serial  0/547  Ram=14
+      ÃÄatol  (Inline)  Ram=11
+      ³  ÀÄ@MULS1616  (Inline)  Ram=6
+      ÃÄ@SITOF  (Inline)  Ram=2
+      ÃÄ@MULFF  (Inline)  Ram=13
+      ÀÄ@ADDFF  0/321  Ram=16
